@@ -24,13 +24,13 @@ iframe {
 
 .search {
     position: fixed;
-    top: 80px;
+    top: 20px;
     right: 50px;
 }
 
 .info {
     position: fixed;
-    top: 160px;
+    top: 100px;
     right: 10px;
     
 }
@@ -71,13 +71,13 @@ i {
 
 #title2 {
     position: fixed;
-    top: 350px;
+    top: 300px;
     margin-left: 70px;
 }
 
 .tienda {
     position: fixed;
-    top: 400px;
+    top: 350px;
     right: 40px;
 }
 
@@ -107,7 +107,7 @@ i {
     border-radius: 15px;
 }
 
-@media (max-width: 1090px){
+/*@media (max-width: 1090px){
     .search {
         display: none;
     }
@@ -117,6 +117,6 @@ i {
     .tienda {
         display: none;
     }
-}
+}*/
 
 
