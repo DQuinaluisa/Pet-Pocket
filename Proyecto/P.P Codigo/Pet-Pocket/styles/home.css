@@ -9,6 +9,9 @@ body {
     padding: 0px;
 }
 
+iframe {
+    nav-up: root;
+}
 
 .row {
     margin: 0px;
