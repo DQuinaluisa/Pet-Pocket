@@ -42,7 +42,7 @@ body {
 }
 
 .wrapper .header .header-menu .sidebar-btn{
-    font-weight: 900;
+    font-weight: 600;
     font-size: 22px;
     cursor: pointer;
     transition: 0.3s;
@@ -62,10 +62,10 @@ body {
     color: #171616;
     display: block;
     margin: 0 10px;
-    font-size: 20px;
+    font-size: 10px;
     width: 40px;
     height: 40px;
-    line-height: 40px;
+    line-height: 20px;
     text-align: center;
     transition: 0.3s;
     transition-property: color;
@@ -79,16 +79,18 @@ body {
  #notification {
     position: absolute;
     top: 20px;
+    font-size: 20px;
 }
 
 #user {
     position: absolute;
     top: 20px;
+    font-size: 20px;
 }
 
 
 
-img {
+#imgMenu {
     top: 15px;
     width: 120px;
     height: 120px;
@@ -98,15 +100,17 @@ img {
     position: relative;
 }
 
-.p {
+p {
     top: 20px;
     position: relative;
+    text-decoration: none;
     
 }
 
 a {
     color: black;
     font-weight: 600;
+    text-decoration: none;
 }
 
 
@@ -149,15 +153,15 @@ a {
 
 .wrapper .sidebar .sidebar-menu  .profile .p {
     color: #242323;
-    font-weight: 700;
-    margin-bottom: 10px; 
+    font-weight: 500;
+    margin-bottom: 5px; 
     text-decoration: none;
    
 
 }
 
 .wrapper .sidebar  .sidebar-menu .item {
-    width: 250px;
+    width: 240px;
     overflow: hidden;
 
 }
@@ -171,7 +175,7 @@ a {
     display: block;
     color: #171616;
     position: relative;
-    padding: 15px 10px;
+    padding: 10px 5px;
     transition: 0.3s;
     transition-property: color;
     text-decoration: none;
@@ -189,7 +193,7 @@ a {
 }
 
 
-
+/*
 .wrapper.collapse .sidebar  {
     width: 80px;
 }
@@ -227,6 +231,14 @@ a {
     display: none;
 }
 
+
+.wrapper .main-container {
+    width: (100% - 250% );
+    margin-top: 70px;
+    margin-left: 250px;
+    padding: 15px;
+}
+*/
 @media (max-width: 768px) {
     .sidebar {
         display: none;

@@ -7,12 +7,12 @@
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
     crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="styles/home.css">
+    
     <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="styles/postUsuario.css">
     <title>Document</title>
 </head>
 <body>
-   
     <div class="wrapper">
         <div class="header">
           <div class="header-menu">
@@ -79,70 +79,76 @@
         </div>
   
       </div>
-   
-    
-  
+
+
+
     <div class="container">
         <div class="row">
            
+            <div class="col-2"></div>
             <div class="col-8">
+                <div class="tituloOf">
+                    <h2>Publicar</h2>
+                   <a id="cerrar" href="home.html"><i class="fas fa-times fa-lg"></i></a> 
+                </div>
+                
                 <div class="row">
-
-                       
-                            <div class="card" id="card1">
-                                <form action="">
-                                 <div class="form-group">
-                                     <label for="">Cuentanos que tal tu día</label>
-                                     <div class="card" id="post">
-                                         <i class="fas fa-comment-alt fa-lg"  id="coment" ></i> <a href="postUsuario.html" id="enPost" > Escribe aqui lo que piensas</a>
-                                     </div>
-                                   </div>
-                                </form>
-                             </div>
-                      
-                       
                     
-                  
-                        <div class="card" id="card2">
-                            <div class="header">
-                                <img src="img/1.jpg" id="imgCard" alt="">
-                                <a href="" id="nameUser" >Karla Rojas</a>
-                               
-                               
-                                <br>
-                                <div class="comentUser">
-                                    <label for="">Que lindo perrito</label>
-                                </div>
-                               
-                                <a href="detalleFUsuario.html"><img src="img/2.jpg" class="mx-auto d-block img-fluid" id="imgPost" alt=""></a>
-
-                            </div>
-
-                            <div class="footer">
-                                
-                                <div class="row">
-                                    <div class="col-3">
-                                        <a href="" id="itm" ><i class="fas fa-heart"></i> Me gusta </a>
-                                    </div>
-                                    <div class="col-3">
-                                        <a href="" id="itm" ><i class="fas fa-comment"></i> Comentar </a>
-                                    </div>
-                                    <div class="col-3">
-                                        <a href="" id="itm" ><i class="fas fa-share"></i> Compartir</a>
-                                    </div>
-                                </div>
-                            </div>
-
+                    <div class="col-sm-6">
+                        <div class="card" id="selImg">
+                           <img id="fondo" src="img/fondo.png" alt="">
+                           <br>
+                           <div class="button">
+                            <button type="button" class="btn btn-outline-secondary">Seleccionar Foto</button>
+                           </div>
                         </div>
-                    
+                    </div>
+                    <div class="col-sm-6">
+                      
+                            <div class="card" id="card2">
+                                <div class="header">
+                                    <img src="img/1.jpg" id="imgCard" alt="">
+                                    <a href="perfil.html" id="nameUser" >Karla Rojas</a>
+                                      
+
+                                    <br>
+                                    <div class="comentUser">
+                                        <label for="">Cuentanos que tal tu día</label>
+                                    </div>
+                                  
+                                 
+    
+                                </div>
+    
+                            
+
+                                <div class="coments">
+                                    <div class="card" id="coment">
+                                        <form action="">
+                                         <div class="form-group">
+                                                
+                                            <div class="input-group ">
+                                                <input type="text" class="form-control" placeholder="Comenta Aquí"  aria-describedby="button-addon2">
+                                               
+                                              </div>
+
+                                           </div>
+                                           <div class="button2">
+                                            <button type="button" class="btn btn-outline-dark">Publicar</button>
+                                           </div>
+                                        </form>
+                                        
+                                     </div>
+
+                                     
+                                </div>
+    
+                            </div>
+                        
+                    </div>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="cont">
-                    <iframe id="noticias" src="noticias.html" ></iframe>
-                </div>
-             
-            </div>
+            
         </div>
     </div>
 </body>
